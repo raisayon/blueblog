@@ -12,3 +12,8 @@ scripts/activate
 pip install django
 django-admin.py startproject blueblog src
 
+python manage.py migrate (In order to initialize the database file)
+
+Documentation static files settings
+https://docs.djangoproject.com/en/stable/howto/static-files/
+
