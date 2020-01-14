@@ -17,3 +17,12 @@ python manage.py migrate (In order to initialize the database file)
 Documentation static files settings
 https://docs.djangoproject.com/en/stable/howto/static-files/
 
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+]
+
