@@ -25,4 +25,5 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
-
+to setup templates
+'DIRS': [os.path.join(BASE_DIR,'templates')],
